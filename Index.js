@@ -9,13 +9,13 @@ const makeCommit = n => {
  const y = random.int(0,6);
  Const DATE = moment().substartct(1,'y').add(1, 'd')
               .add(x,  'w').add(y,  'd'.format();
-const data = {
+ const data = {
   date : DATE
+ }
+ console.log(DATE);
+ jsonfile.writefile(FILE_PATH, data, ()=>{
+  simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE }, 
+  makecommit.bind(this, --n));
+ });
 }
-console.log(DATE);
-jsonfile.writefile(FILE_PATH, data, ()=>{
- simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE }, 
- makecommit.bind(this, --n));
-});
-
 makecommit(100);
