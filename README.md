@@ -1,3 +1,3 @@
 # Github
 
-This prpject is not completely finoshed so no lne try to fork amd edit things in this 📊
+This project is not completely finished so no one try to fork amd edit things in this 📊
